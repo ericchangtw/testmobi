@@ -17,9 +17,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -78,7 +78,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="LOO+HOUjVhNDGPuxO+Mc7n8u+VEdUKqhITIDQH94x13oJkEhrB9xCijNSWqHRNH0WXiUJ7w3eDtL0JdlzhlrVErjTryCZdK+5EHzcOMuO5NWQ3DBsxL1sCVi7g8FJ4nN.TkaJVBT08A4kzwCPcMLrs/GNp0yUUpsHq6QtIQhc+bLSFBFuvb2Cq2N3xT9C3OiE/BNV7sQI6OXLBgOyl4cArLf8ftbzZVC9y+OzyDivqZU4LPubNeF7X8WNmuSy49TN">
+<form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="g-recaptcha-response" data-form-captcha="true" value="6LfXVccUAAAAAFlVDEpP32ieIhWjV6W1lCBzhVBF"><input type="hidden" name="email" data-form-email="true" value="CQD4yTos+KPxpMoJnqN/UxcrfkkHRsIStnc4EnJSLo0yZR/nlyzLA45dYkm/+AHC8YSkEfW49out1TEYckXGAg5KiLJFUZP3SryjdlEfjeiMP+zt6v8eqrzhjRtO5Ge3.wwMMIUzAb35Tzv4idTevG7adLOB7olwP63rtjId1oR/ypVjSNNGOUfyKMv1wlDJTioRVQNseRUP+hZYAlIQsqLLjGIKYBrWwW0oEF+1YS9wcW2ew/klIQWbS5he81odg.2rSgo2+BTzO67YByrs1gJOyoMk4DbZY3iSGyAJbhy9+oX4MYQlvheBE9E3Jf/rU0LMFmidh4Bu6oQVb8E8PmKtqvgWr+Z/UbJ6zOC9ujhKoD02SwsNTeU0KnInWsqpUZ">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">謝謝您的填寫，我們會有專人盡快與您聯繫。謝謝！</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -94,11 +94,11 @@
 <label for="企業名稱-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">企業名稱＊</label>
 <input type="text" name="企業名稱" placeholder="請輸入企業名稱" data-form-field="name" class="form-control display-7" required="required" value="" id="企業名稱-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="企業員工人數 ">
+<div data-for="企業員工人數 " class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="企業員工人數 -formbuilder-1b" class="form-control-label mbr-fonts-style display-7">企業員工人數 </label>
-<input type="number" name="企業員工人數 " placeholder="企業員工人數 (概估)" max="99999999" min="0" step="1" data-form-field="企業員工人數 " class="form-control display-7" value="" id="企業員工人數 -formbuilder-1b">
+<input type="number" name="企業員工人數 " placeholder="企業員工人數 (概估)" data-form-field="企業員工人數 " class="form-control display-7" max="99999999" min="0" step="1" value="" id="企業員工人數 -formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="企業地址">
+<div data-for="企業地址" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="企業地址-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">企業地址</label>
 <input type="text" name="企業地址" placeholder="請輸入企業地址" data-form-field="企業地址" class="form-control display-7" value="" id="企業地址-formbuilder-1b">
 </div>
@@ -108,45 +108,47 @@
 <div class="col-lg-12 col-md-12 col-sm-12">
 <hr>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="聯絡人姓名">
+<div data-for="聯絡人姓名" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="聯絡人姓名-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">聯絡人姓名＊</label>
-<input type="text" name="聯絡人姓名" placeholder="請輸入聯絡人姓名" data-form-field="聯絡人姓名" class="form-control display-7" required="required" value="" id="聯絡人姓名-formbuilder-1b">
+<input type="text" name="聯絡人姓名" placeholder="請輸入聯絡人姓名" data-form-field="聯絡人姓名" required="required" class="form-control display-7" value="" id="聯絡人姓名-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="稱謂">
+<div data-for="稱謂" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="稱謂-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">稱謂</label>
 <select name="稱謂" data-form-field="稱謂" class="form-control display-7" id="稱謂-formbuilder-1b">
 <option value="先生">先生</option>
 <option value="女士">女士</option>
 </select>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="職稱">
+<div data-for="職稱" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="職稱-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">職稱</label>
 <input type="text" name="職稱" placeholder="請輸入職稱" data-form-field="職稱" class="form-control display-7" value="" id="職稱-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="部門名稱">
+<div data-for="部門名稱" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="部門名稱-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">部門名稱</label>
 <input type="text" name="部門名稱" placeholder="請輸入部門名稱" data-form-field="部門名稱" class="form-control display-7" value="" id="部門名稱-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="聯絡電話">
+<div data-for="聯絡電話" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="聯絡電話-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">聯絡電話</label>
 <input type="tel" name="聯絡電話" placeholder="請輸入聯絡電話" data-form-field="聯絡電話" class="form-control display-7" value="" id="聯絡電話-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="手機">
+<div data-for="手機" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="手機-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">手機 ＊</label>
 <input type="tel" name="手機" placeholder="請輸入手機" pattern="[0-9]{10}" data-form-field="手機" class="form-control display-7" value="" id="手機-formbuilder-1b">
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="E-MAIL">
+<div data-for="E-MAIL" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="E-MAIL-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">E-MAIL＊</label>
 <input type="email" name="E-MAIL" placeholder="請輸入 E-MAIL" data-form-field="E-MAIL" class="form-control display-7" value="" id="E-MAIL-formbuilder-1b">
 </div>
 <div class="col-lg-12 col-md-12 col-sm-12">
 <hr>
 </div>
-<div class="col-lg-12 col-md-12 col-sm-12 form-group" style="transform: translateZ(0px);" data-for="textarea">
+<div data-for="textarea" class="col-lg-12 col-md-12 col-sm-12 form-group">
 <label for="textarea-formbuilder-1b" class="form-control-label mbr-fonts-style display-7">需求描述</label>
 <textarea name="textarea" placeholder="職工福委會有採購抵用券、兌換券、特約廠商合約優惠…等需求，請在此填寫。" data-form-field="textarea" class="form-control display-7" id="textarea-formbuilder-1b"></textarea>
 </div>
-<div class="col-auto"><button type="submit" class="btn btn-secondary display-7">送出</button></div>
+<div class="col-auto">
+<button type="submit" class="btn btn-secondary display-7">送出</button>
+</div>
 </div>
 </form><!--Formbuilder Form-->
 </div>
@@ -161,10 +163,11 @@
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/formstyler/jquery.formstyler.js"></script>
   <script src="assets/formstyler/jquery.formstyler.min.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfXVccUAAAAAFlVDEpP32ieIhWjV6W1lCBzhVBF"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
